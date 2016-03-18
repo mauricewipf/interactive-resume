@@ -1,0 +1,3 @@
+Sitemap: http://www.mauwi.me/sitemap.xml
+User-agent: *
+Disallow: assets
