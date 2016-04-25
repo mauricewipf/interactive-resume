@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div id="project" class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>{{page.title}}</h1>
+      <div id="year">
+        Released: {{ page.date | date: "%b %-d, %Y" }}
+      </div>
+
+      <div id="projectContent">
+        {{page.content}}
+      </div>
+
+      <div id="projectImage">
+        <a href="{{page.projectHyperlink}}"><img src="/images/{{page.projectImage}}" alt="{{page.title}}" /></a>
+      </div>
+
+      <div id="projectTags">
+        Tags: {{page.projectTags}}
+      </div>
+    </div>
+  </div>
+</div>
