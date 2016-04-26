@@ -1,7 +1,13 @@
 <div class="container footer">
   <div class="row">
     <div class="col-xs-12">
-        &copy; 2016 Maurice Wipf
+        &copy; <span id="thisYear"></span> Maurice Wipf
     </div>
   </div>
 </div>
+
+<script>
+  var date = new Date();
+  var thisYear = date.getFullYear();
+  document.getElementById('thisYear').innerHTML = thisYear;
+</script>

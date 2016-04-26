@@ -14,8 +14,14 @@ layout: default
         {{page.content}}
       </div>
 
+      {% if page.projectImage %}
       <div id="projectImage">
         <a href="{{page.projectHyperlink}}"><img src="/images/{{page.projectImage}}" alt="{{page.title}}" /></a>
+      </div>
+      {% endif %}
+
+      <div id="projectHyperlink">
+        <a href="{{page.projectHyperlink}}">{{page.projectHyperlink}}</a>
       </div>
 
       <div id="projectTags">
