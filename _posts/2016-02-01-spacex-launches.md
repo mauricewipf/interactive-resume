@@ -3,7 +3,7 @@ layout: project
 title: SpaceX Launches Calendar
 date: 2016-02-01
 permalink: /projects/spacex-launches/
-projectHyperlink: https://mauwi.me/spacex-launches/index.html
+projectHyperlink: http://mauwi.me/spacex-launches/index.html
 description: Never miss a SpaceX launch again.
 projectImage: spacex-launches.jpg
 projectTags: SpaceX, SpaceX Launches, ical, ics, Calendar

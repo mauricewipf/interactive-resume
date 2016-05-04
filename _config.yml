@@ -9,9 +9,9 @@
 title: Maurice Wipf – Product Manager
 email: sayhi@mauwi.me
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mauwi.me" # the base hostname & protocol for your site
+url: "http://mauwi.me" # the base hostname & protocol for your site
 twitter_username: mauwi
-github_username:  mauricewipf
+github_username: mauricewipf
 
 # Build settings
 markdown: kramdown
