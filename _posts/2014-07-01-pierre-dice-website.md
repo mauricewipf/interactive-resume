@@ -1,10 +1,10 @@
 ---
 layout: project
-title: Pierre Dice Website
+title: PierreDice.de Website
 date: 2014-07-01
 permalink: /projects/pierredice-website/
 projectHyperlink: http://pierredice.de/
 description: DJ Pierre Dice Website
-projectImage: pierre-dice-website.jpg
+projectImage: 
 projectTags: Webdesign, Bootstrap, DJ
 ---
