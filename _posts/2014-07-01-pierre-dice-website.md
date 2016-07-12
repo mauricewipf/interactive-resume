@@ -2,7 +2,7 @@
 layout: project
 title: PierreDice.de Website
 date: 2014-07-01
-permalink: /projects/pierredice-website/
+permalink: /projects/pierre-dice-website/
 projectHyperlink: http://pierredice.de/
 description: DJ Pierre Dice Website
 projectImage: 
