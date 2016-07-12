@@ -2,7 +2,7 @@
 layout: project
 title: No-Meat App (Prototype)
 date: 2015-10-01
-permalink: /projects/NAME/
+permalink: /projects/no-meat-app/
 projectHyperlink: https://github.com/mauricewipf/No-Meat-App
 description: Notiere an welchen Tagen Du deine Ziele erreicht hast.
 projectImage: no-meat-app.jpg
