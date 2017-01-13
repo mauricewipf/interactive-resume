@@ -6,3 +6,8 @@
 ## Running on local server
 - Website is built on jekyll, run `$ jekyll serve`
 - Open `http://localhost:4000/`
+
+## Production build
+- Jekyll’s environment is set to `development` by default.
+- Google Analytics should only be included in the production build.
+- Run `$ JEKYLL_ENV=production jekyll build` to do so.
