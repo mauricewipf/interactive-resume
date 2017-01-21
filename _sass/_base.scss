@@ -207,6 +207,7 @@ a:hover, a:focus {
   -moz-column-gap: 2em;
   -ms-column-gap: 2em;
   -o-column-gap: 2em;
+  min-height: initial;
 }
 @media (max-width: 767px) {
   .project-gallery {
