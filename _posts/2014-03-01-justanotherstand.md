@@ -9,4 +9,4 @@ projectImage: justanotherstand.jpg
 projectTags: iPhone Stand, Smartphone Stand, Wood, Robust
 ---
 
-Robuster Smartphone-Halter aus Holz. Smartphones können im Hoch- oder Querformat ausgestellt werden.
+Robuster Smartphone-Halter aus Holz. Smartphones können im Hoch- oder Querformat aufgestellt werden.
