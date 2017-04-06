@@ -278,5 +278,15 @@ a:hover, a:focus {
   border-top: 1px solid #333333;
   padding-top: 1em;
   padding-bottom: 1em;
-  font-size: .8em;
+}
+
+.footer #contact a {
+    border-bottom: none;
+}
+.footer #contact i {
+    padding-left: 1em;
+}
+
+.footer p {
+    font-size: .8em;
 }

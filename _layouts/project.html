@@ -7,11 +7,7 @@ layout: default
     <div class="col-xs-12">
       <h1>{{page.title}}</h1>
       <div id="year">
-        Released: {{ page.date | date: "%b %-d, %Y" }}
-      </div>
-
-      <div id="projectContent">
-        {{page.content}}
+        Release: {{ page.date | date: "%b %-d, %Y" }}
       </div>
 
       {% if page.projectImage %}
@@ -19,6 +15,10 @@ layout: default
         <a href="{{page.projectHyperlink}}"><img src="/images/{{page.projectImage}}" alt="{{page.title}}" /></a>
       </div>
       {% endif %}
+
+      <div id="projectContent">
+        {{page.content}}
+      </div>
 
       <div id="projectHyperlink">
         <a href="{{page.projectHyperlink}}">{{page.projectHyperlink}}</a>
