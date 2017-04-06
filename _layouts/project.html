@@ -22,7 +22,11 @@ layout: default
 
       <div id="projectHyperlink">
         <a href="{{page.projectHyperlink}}">{{page.projectHyperlink}}</a>
-      </div>
+        {% if page.projectHyperlink2 %}
+            <br>
+            <a href="{{page.projectHyperlink2}}">{{page.projectHyperlink2}}</a>
+        {% endif %}
+    </div>
 
       <div id="projectTags">
         Tags: {{page.projectTags}}
