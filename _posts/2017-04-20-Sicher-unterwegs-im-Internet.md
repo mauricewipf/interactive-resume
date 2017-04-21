@@ -9,4 +9,4 @@ projectImage:
 projectTags: Internet Security, Education, Passwords, Email Accounts
 ---
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/uRc3DERok5Jp8m" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="https://docs.google.com/presentation/d/1-WKELbm3Hk_ePwPiKAb1Lw9BqFJqpJw3mX7yk_kpzl4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
