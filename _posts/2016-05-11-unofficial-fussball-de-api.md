@@ -4,7 +4,7 @@ title: Unofficial Fussball.de API
 date: 2016-05-11
 permalink: /projects/Unofficial-fussball-de-api/
 projectHyperlink: https://github.com/mauricewipf/unofficial-fussball-de-api/
-description: … because widgets sucks.
+description: … because widgets suck.
 projectImage: unofficial-fussball-de-api.png
 projectTags: Fussball.de, nodeJS, API
 ---
