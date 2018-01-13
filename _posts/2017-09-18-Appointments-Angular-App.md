@@ -6,7 +6,7 @@ permalink: /projects/appointments-angular-app/
 projectHyperlink: https://appointments-362ca.firebaseapp.com
 description: Make appointments and view them in a list
 projectImage: appointments-angular-app.png
-projectTags: Angular 4, App, Firebase, Bootstrap, Frontend
+projectTags: Angular, App, Firebase, Bootstrap, Frontend
 ---
 
 This web application is a playground to learn Angular 4. 
