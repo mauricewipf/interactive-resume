@@ -3,7 +3,7 @@ layout: project
 title: JustAnotherStand
 date: 2014-03-01
 permalink: /projects/justanotherstand/
-projectHyperlink: http://justanotherstand.mauwi.me
+projectHyperlink:
 description: Robuster Smartphone-Halter aus Holz.
 projectImage: justanotherstand.jpg
 projectTags: iPhone Stand, Smartphone Stand, Wood, Robust
