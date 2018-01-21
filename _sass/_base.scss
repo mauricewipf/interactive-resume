@@ -201,7 +201,6 @@ a:hover, a:focus {
 /* Projects
 -------------------------------------------------- */
 .project-gallery {
-  //http://www.bootply.com/118335
   column-gap: 2em;
   -webkit-column-gap:2em;
   -moz-column-gap: 2em;
@@ -254,12 +253,13 @@ a:hover, a:focus {
    border-radius: 2px;
    -webkit-filter: none;
    filter: none;
- }
- .project-gallery .readmore {
-   float: right;
-   padding-right: 1em;
- }
-
+}
+#project #year {
+  color: #999999;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  padding: 2px;
+}
 #project #projectContent {
   padding-top: 1em;
   padding-bottom: 3em;
@@ -269,6 +269,12 @@ a:hover, a:focus {
 }
 #project #projectTags {
   padding-top: 3em;
+}
+#project #projectTags .projectTag {
+  color: #999999;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 /* Footer

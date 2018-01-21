@@ -6,7 +6,7 @@ permalink: /projects/energy-storage-magazine/
 projectHyperlink: https://flipboard.com/@mauwi/energy-storage-tg8c91uqy
 description: A Flipboard magazine about the latest technology advancements in energy storage
 projectImage: energy-storage-magazine.jpg
-projectTags: Flipboard, Reading, Energy Storage
+projectTags: [Flipboard, Reading, Energy Storage]
 ---
 
 Energiespeicher sind eine Kerntechonologie in der heutigen Technikwelt. Bei Mobilgeräten und Elektrofahrzeugen ist die geringe Energiedichte der Akkus der größte Kritikpunkt.

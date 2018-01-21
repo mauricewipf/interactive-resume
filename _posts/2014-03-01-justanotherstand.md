@@ -6,7 +6,7 @@ permalink: /projects/justanotherstand/
 projectHyperlink:
 description: Robuster Smartphone-Halter aus Holz.
 projectImage: justanotherstand.jpg
-projectTags: iPhone Stand, Smartphone Stand, Wood, Robust
+projectTags: [iPhone Stand, Smartphone Stand, Wood, Robust]
 ---
 
 Robuster Smartphone-Halter aus Holz. Smartphones können im Hoch- oder Querformat aufgestellt werden.

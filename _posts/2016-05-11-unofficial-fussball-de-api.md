@@ -6,7 +6,7 @@ permalink: /projects/Unofficial-fussball-de-api/
 projectHyperlink: https://github.com/mauricewipf/unofficial-fussball-de-api/
 description: … because widgets suck.
 projectImage: unofficial-fussball-de-api.png
-projectTags: Fussball.de, nodeJS, API
+projectTags: [Fussball.de, NodeJS, API]
 ---
 
 It runs on a nodeJS server and turns CSS selectors into a JSON accessible API.

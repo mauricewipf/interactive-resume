@@ -6,8 +6,8 @@ layout: default
   <div class="row">
     <div class="col-xs-12">
       <h1>{{page.title}}</h1>
-      <div id="year">
-        Release: {{ page.date | date: "%b %-d, %Y" }}
+      <div>
+        Release <span id="year">{{ page.date | date: "%b %-d, %Y" }}</span>
       </div>
 
       {% if page.projectImage %}
@@ -29,8 +29,12 @@ layout: default
     </div>
 
       <div id="projectTags">
-        Tags: {{page.projectTags}}
+        Tags 
+        {% for tag in page.projectTags %}
+          <span class="projectTag">{{tag}}</span>
+        {% endfor %}
       </div>
     </div>
   </div>
 </div>
+ 

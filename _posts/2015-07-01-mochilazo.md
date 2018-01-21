@@ -6,5 +6,7 @@ permalink: /projects/mochilazo/
 projectHyperlink:
 description: Mochilazo hilft dir beim Planen deines nächsten Trips.
 projectImage: mochilazo.jpg
-projectTags: Travel, AngularJS, Parse, Webapp
+projectTags: [Travel, AngularJS, Parse, Webapp]
 ---
+
+Mochilazo hilft dir beim Planen deines nächsten Trips.

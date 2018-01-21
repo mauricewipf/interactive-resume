@@ -7,7 +7,7 @@ projectHyperlink: https://wo-ist-markt.de/#bretten
 projectHyperlink2: https://github.com/wo-ist-markt/wo-ist-markt.github.io
 description: Find weekly markets in your city.
 projectImage: wo-ist-markt.jpg
-projectTags: Open Source, Contribution, Open Knowledge Lab Karlsruhe
+projectTags: [Open Source, Contribution, Open Knowledge Lab Karlsruhe]
 ---
 
 Wo ist Markt? aims at providing an easy to use website for market information. Visitors of the website should be able to intuitively get answers to the following questions:

@@ -6,7 +6,7 @@ permalink: /projects/nomeat-hybrid-app/
 projectHyperlink: https://github.com/mauricewipf/NoMeat-Hybrid-App
 description: Track days when you don't eat meat
 projectImage: nomeat-hybrid-app.png
-projectTags: Angular, App, Firebase, Ionic, Frontend
+projectTags: [Angular, App, Firebase, Ionic, Frontend]
 ---
 
 After the <a href="http://mauwi.me/projects/no-meat-app-full-stack-course/">NoMeat web application</a> I developed in 2017, I re-programmed the app as hybrid app with <a href="https://ionicframework.com/">Ionic Framework</a>. 

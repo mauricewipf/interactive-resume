@@ -6,7 +6,7 @@ permalink: /projects/schreinerei-wipf-de/
 projectHyperlink: http://schreinerei-wipf.de
 description: Redesign
 projectImage: schreinerei-wipf-de.png
-projectTags: Webdesign, Mobile-friendly
+projectTags: [Webdesign, Mobile-first]
 ---
 
 Redesign with focus on responsiveness
