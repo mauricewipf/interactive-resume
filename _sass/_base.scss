@@ -102,6 +102,9 @@ h1 {
   font-size: 4.5rem;
   letter-spacing: 2px;
 }
+#project h1 {
+	font-size: 2.5rem;
+}
 h2, h3 {
 	font-family: "Josefin Sans", "Roboto", sans-serif;
 }
@@ -286,6 +289,7 @@ a:hover, a:focus {
 	display: flex;
 	flex-wrap: nowrap;
 	overflow-x: auto;
+	-webkit-overflow-scrolling: touch
 }
 .project-horizontal-gallery h4, .project-horizontal-gallery p {
   padding: 0.5em 0.5em 0 0.5em;
@@ -302,7 +306,7 @@ a:hover, a:focus {
 	-ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,0.26));
 	-o-filter: drop-shadow(0 1px 2px rgba(0,0,0,0.26));
 	display: inline-block;
-	width: 400px;
+	width: 300px;
 	height: 100%;
 }
 
