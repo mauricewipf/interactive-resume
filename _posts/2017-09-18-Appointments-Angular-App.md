@@ -8,6 +8,7 @@ projectHyperlink2: https://github.com/mauricewipf/Appointments
 description: Make appointments and view them in a list
 projectImage: appointments-angular-app.png
 projectTags: [Angular, App, Firebase, Bootstrap, Frontend]
+onStartpage: true
 ---
 
 This web application is a playground to learn Angular 4. 

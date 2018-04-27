@@ -7,6 +7,7 @@ projectHyperlink: https://nomeat.mybluemix.net/
 description: As a capstone project for Coursera's Full Stack Web Development Course it implemented a full-fledged web application from frontend to backend.
 projectImage: no-meat-app-full-stack-course.png
 projectTags: [Full Stack, App, NodeJS, AngularJS, Strongloop, IBM Bluemix]
+onStartpage: true
 ---
 
 I started a web development course to improve my programming skills. The <a href="https://www.coursera.org/specializations/full-stack">course</a> covered everything from frontend, backend, databases, testing and deployment.

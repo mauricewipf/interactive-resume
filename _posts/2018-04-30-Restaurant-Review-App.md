@@ -7,6 +7,7 @@ projectHyperlink: https://github.com/mauricewipf/Restaurant-Review-App
 description: An offline first web application written in JavaScript with great accessibility
 projectImage: restaurant-review-app.jpg
 projectTags: [Offline First, IndexedDB, Accessibility, Caching, JavaScript]
+onStartpage: true
 ---
 
 This app is created as part of the Udacity Nanodegree "Mobile Web Specialist". In 2017 I applied for the <a href="https://www.udacity.com/google-scholarships">Google Web Scholarship</a>. In the first round I was selected for the Intermediate Track. This was called "The Challenge" because out of 10,000 stduents in the intermediate track, there would be only 1,000 students awarded scholarships to the Mobile Web Specialist Nanodegree Program. And I was one of them!
