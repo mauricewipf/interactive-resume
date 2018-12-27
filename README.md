@@ -11,3 +11,4 @@
 - Jekyll’s environment is set to `development` by default.
 - Google Analytics should only be included in the production build.
 - Run `$ JEKYLL_ENV=production jekyll build` to do so.
+- Note: After `$ git push` GitHub Pages build automatically for `production` environment.
