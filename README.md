@@ -4,7 +4,9 @@
 - Create new file name `YYYY-MM-DD-PROJECTNAME.md`
 
 ## Running on local server
-- Website is built on jekyll, run `$ jekyll serve`
+- Website is built on jekyll, 
+    - [Install Jekyll](https://jekyllrb.com/docs/installation/)
+    - Run `$ jekyll serve`
 - Open `http://localhost:4000/`
 
 ## Production build
