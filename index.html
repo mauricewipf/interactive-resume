@@ -77,7 +77,7 @@ excerpt: Find my latest projects and articles.
             <p class="mb-0">
                 It all started with iWeb, a software that was shipped with Apple OSX until 2011. It is a WYSIWYG-Editor
                 to build websites.
-                My first „web app“ was then a trivial pursuit game about The Simpsons! Up to today I’m driven by my own
+                My first "web app" was then a trivial pursuit game about The Simpsons! Up to today I’m driven by my own
                 ideas that I want
                 to bring alive. In numerous projects I’ve built a tech stack including the latest web technologies.
             </p>
@@ -88,6 +88,7 @@ excerpt: Find my latest projects and articles.
                     <ul>
                         <li>JavaScript</li>
                         <li>Angular</li>
+                        <li>RxJS</li>
                         <li>Oracle JET</li>
                         <li>Bootstrap</li>
                         <li>HTML, CSS</li>
@@ -99,6 +100,7 @@ excerpt: Find my latest projects and articles.
                     <summary>Back-end</summary>
                     <ul>
                         <li>Node.js</li>
+                        <li>Nest</li>
                         <li>Spring Boot</li>
                         <li>RESTful APIs</li>
                     </ul>
@@ -121,21 +123,28 @@ excerpt: Find my latest projects and articles.
             <h2>Projects</h2>
             <div class="project-horizontal-gallery">
                 {% for project in site.posts %}
-                {% if project.onStartpage %}
-
+                    {% if project.onStartpage %}
+                        <div>
+                            <h4>
+                                <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+                            </h4>
+                            <p>{{project.description}}</p>
+                            {% if project.projectImage %}
+                            <a href="{{ project.url | prepend: site.baseurl }}">
+                                <img alt="{{project.title}}" src="/images/{{project.projectImage}}"/>
+                            </a>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
                 <div>
                     <h4>
-                        <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+                        <a href="/projects">All Projects</a>
                     </h4>
-                    <p>{{project.description}}</p>
-                    {% if project.projectImage %}
-                    <a href="{{ project.url | prepend: site.baseurl }}">
-                        <img alt="{{project.title}}" src="/images/{{project.projectImage}}"/>
-                    </a>
-                    {% endif %}
+                    <p>
+                        <a href="/projects">View all projects</a>
+                    </p>
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
         </div>
     </div>
