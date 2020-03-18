@@ -7,12 +7,12 @@
 
 # Site settings
 title: Maurice Wipf – Developer
-email: sayhi@mauwi.me
+email: contact@mauwi.me
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mauwi.me" # the base hostname & protocol for your site
 twitter_username: mauwi
 github_username: mauricewipf
-description: Find my latest projects and articles.
+description: Find my latest projects.
 
 # Build settings
 markdown: kramdown
