@@ -117,35 +117,4 @@ excerpt: Find my latest projects and articles.
         </div>
     </div>
 
-    <div class="row mt-5">
-        <div class="col-12">
-            <h2>Projects</h2>
-            <div class="project-horizontal-gallery">
-                {% for project in site.posts %}
-                {% if project.onStartpage %}
-                <div>
-                    <h4>
-                        <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-                    </h4>
-                    <p>{{project.description}}</p>
-                    {% if project.projectImage %}
-                    <a href="{{ project.url | prepend: site.baseurl }}">
-                        <img alt="{{project.title}}" src="/images/{{project.projectImage}}"/>
-                    </a>
-                    {% endif %}
-                </div>
-                {% endif %}
-                {% endfor %}
-                <div>
-                    <h4>
-                        <a href="/projects">All Projects</a>
-                    </h4>
-                    <p>
-                        <a href="/projects">View all projects</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </div>
