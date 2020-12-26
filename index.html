@@ -29,7 +29,6 @@ excerpt: Find my latest projects and articles.
                 When you find me off the computer, I typically read&nbsp;📖, run&nbsp;🏃 and travel&nbsp;🏝.
             </p>
 
-            <!-- <img src="/images/mauwi.jpg" alt="Maurice Wipf"> -->
         </div>
     </div>
 
@@ -123,19 +122,19 @@ excerpt: Find my latest projects and articles.
             <h2>Projects</h2>
             <div class="project-horizontal-gallery">
                 {% for project in site.posts %}
-                    {% if project.onStartpage %}
-                        <div>
-                            <h4>
-                                <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-                            </h4>
-                            <p>{{project.description}}</p>
-                            {% if project.projectImage %}
-                            <a href="{{ project.url | prepend: site.baseurl }}">
-                                <img alt="{{project.title}}" src="/images/{{project.projectImage}}"/>
-                            </a>
-                            {% endif %}
-                        </div>
+                {% if project.onStartpage %}
+                <div>
+                    <h4>
+                        <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+                    </h4>
+                    <p>{{project.description}}</p>
+                    {% if project.projectImage %}
+                    <a href="{{ project.url | prepend: site.baseurl }}">
+                        <img alt="{{project.title}}" src="/images/{{project.projectImage}}"/>
+                    </a>
                     {% endif %}
+                </div>
+                {% endif %}
                 {% endfor %}
                 <div>
                     <h4>
