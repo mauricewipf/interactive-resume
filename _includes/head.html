@@ -1,21 +1,21 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css"/>
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+        name="description">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-
-  {% if jekyll.environment == 'production' %}
-    <!-- only include Hotjar Tracking Code when run $ JEKYLL_ENV=production jekyll build -->
-    {% include hotjar.html %}
-  {% endif %}
+  <link href="{{ " rel="stylesheet"
+  /css/main.css" | prepend: site.baseurl }}">
+  <link href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
+  <link href="{{ " rel="alternate" title="{{ site.title }}" type="application/rss+xml"
+  /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- rich snippet for Google Search -->
   <script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Person", "address": { "@type": "PostalAddress", "addressLocality": "Karlsruhe", "addressRegion": "BW", "postalCode": "76133", "addressCountry": "DE" }, "affiliation": ["vertriebsheld.de", "leadbird.com"],
