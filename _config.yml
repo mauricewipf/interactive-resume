@@ -7,9 +7,9 @@
 
 # Site settings
 title: Maurice Wipf – Developer
-email: contact@mauwi.me
+email: maurice.wipf@mauwi.me
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mauwi.me" # the base hostname & protocol for your site
+url: "https://www.mauwi.me" # the base hostname & protocol for your site
 twitter_username: mauwi
 github_username: mauricewipf
 description: Find my latest projects.
