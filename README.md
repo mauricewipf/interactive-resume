@@ -1,7 +1,4 @@
-## Adding projects / posts
-
-- Go to folder _posts
-- Create new file name `YYYY-MM-DD-PROJECTNAME.md`
+# mauricewipf.github.io
 
 ## Running on local server
 - Website is built on jekyll, 

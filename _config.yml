@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.mauwi.me" # the base hostname & protocol for your site
 twitter_username: mauwi
 github_username: mauricewipf
-description: Find my latest projects.
+description: Information about Maurice Wipf.
 
 # Build settings
 markdown: kramdown
