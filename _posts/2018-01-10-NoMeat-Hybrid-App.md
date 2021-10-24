@@ -10,9 +10,13 @@ projectTags: [Angular, App, Firebase, Ionic, Frontend]
 onStartpage: true
 ---
 
-After the <a href="http://mauwi.me/projects/no-meat-app-full-stack-course/">NoMeat web application</a> I developed in 2017, I re-programmed the app as hybrid app with <a href="https://ionicframework.com/">Ionic Framework</a>. 
+After the <a href="https://www.mauwi.me/projects/no-meat-app-full-stack-course/">NoMeat web application</a> I developed
+in 2017, I re-programmed the app as hybrid app with <a href="https://ionicframework.com/">Ionic Framework</a>.
 
-With Ionic you can use the same codebase and deploy for different platforms like iOS and Android. Native apps are built in Swift or Java for iOS or Android, respectively. Ionic apps in contrast, are written in JavaScript. Ionic wraps the code into a native container and deploy for different platforms. Users can download the app on mobile app stores. This is called hybrid app.
+With Ionic you can use the same codebase and deploy for different platforms like iOS and Android. Native apps are built
+in Swift or Java for iOS or Android, respectively. Ionic apps in contrast, are written in JavaScript. Ionic wraps the
+code into a native container and deploy for different platforms. Users can download the app on mobile app stores. This
+is called hybrid app.
 
 The app fuctionality in comparison to the earlier version is basically the same. Users see a calendar and click on days that they want to track as "no meat-days". Of course, they can track whatever they want. 
 
