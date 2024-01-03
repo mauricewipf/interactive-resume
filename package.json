@@ -1,0 +1,16 @@
+{
+  "name": "mauricewipf.github.io",
+  "version": "1.0.0",
+  "author": "Maurice Wipf",
+  "description": "Personal page of Maurice Wipf",
+  "scripts": {
+    "generate-tailwind": "npx tailwindcss -i assets/css/tailwind.global.css -o ./assets/css/tailwind.min.css --minify --watch",
+    "serve": "npx http-server -o /index.html"
+  },
+  "devDependencies": {
+    "@mauwi-org/mauwi-wc": "^0.0.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  }
+}

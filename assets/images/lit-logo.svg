@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="769px" viewBox="0 0 512 769" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>lit-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lit-logo">
+            <rect id="Rectangle" fill="#91F1FB" x="0" y="0" width="512" height="769"></rect>
+            <g id="lit-elements" transform="translate(44.000000, 472.000000)" fill-rule="nonzero">
+                <path d="M394.5,78 L394.5,106.8 L425,106.8 L425,122.4 L394.5,122.4 L394.5,158 C394.5,161.6 394.6,165.2 395,168.3 C395.8,173.6 399,178.8 403.4,180.8 C409.1,183.4 413.1,182.9 425,182.5 L422.1,199.7 C421.3,200.1 418.1,200 415.1,200 C408.1,200 381.7,202.5 376.3,175.3 C375.4,170.6 375.6,165.8 375.6,158.4 L375.6,122.6 L362,122.6 L362.2,106.7 L375.6,106.7 L375.6,78 L394.5,78 Z M342.8,106.7 L342.8,198.2 L324,198.2 L324,106.7 L342.8,106.7 Z M342.8,78 L342.8,94.3 L323.8,94.3 L323.8,78 L342.8,78 Z M259.2,180.2 L307.4,180.2 L289.4,198.2 L240,198.2 L240,78 L259.2,78 L259.2,180.2 Z"
+                      id="Shape" fill="#000000"></path>
+                <polyline id="Shape" fill="#00E8FF" points="40 120 60 60 150 150 120 200 80 160 60 160"></polyline>
+                <path d="M80,160 L80,80 L120,40 L120,120 M0,160 L40,200 L60,160 L40,120 L20,120" id="Shape"
+                      fill="#283198"></path>
+                <path d="M40,120 L40,40 L80,0 L80,80 M120,200 L120,120 L160,80 L160,160 M0,160 L0,80 L40,120" id="Shape"
+                      fill="#324FFF"></path>
+                <polyline id="Shape" fill="#00FFFF" points="40 200 40 120 80 160"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
