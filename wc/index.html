@@ -44,8 +44,8 @@
           class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div class="lg:pr-8 lg:pt-4">
             <div class="lg:max-w-lg">
-              <h2 class="text-base font-semibold leading-7 text-indigo-600">For marketers and developers alike</h2>
-              <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Integrate everywhere</p>
+              <p class="text-base font-semibold leading-7 text-indigo-600">For marketers and developers alike</p>
+              <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Integrate everywhere</h2>
               <p class="mt-6 text-lg leading-8 text-gray-600">Content management systems (CMS) are a great way for
                 content creators to publish their content online. However, they have limitations when it comes to
                 customization. Our service gives the freedom to customize every aspect of your website, from layout and
@@ -345,7 +345,7 @@ document.getElementsByTagName(<span class="text-emerald-300">"mauwi-personal-inf
               </span>
             </div>
           </div>
-          <div class="mt-5 rounded-md shadow-md pl-4 py-2 text-gray-600 flex items-center">
+          <div class="mt-5 rounded-md shadow-md px-2 md:px-4 py-2 text-gray-600 flex items-center">
             <label for="price">Change value for December</label>
             <input class="ml-2" id="price" max="11000" min="0" name="price" oninput="updateBarChart(event)" step="100"
                    type="range"/>
@@ -734,11 +734,17 @@ document.getElementsByTagName(<span class="text-emerald-300">"mauwi-personal-inf
             href="#plans">See plans</a>
         </div>
       </div>
+      <div
+        aria-hidden="true"
+        class="absolute left-1/2 right-0 top-full -z-10 hidden -translate-y-1/2 transform-gpu overflow-hidden blur-3xl sm:block">
+        <div class="aspect-[1155/378] w-[62rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+             style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
     </div>
   </main>
 
   <!-- Footer -->
-  <footer class="px-8 mt-16 mb-8">
+  <footer class="px-8 mt-16 mb-8 relative">
     <div class="mx-auto pt-8 border-t border-gray-900/10">
       <ul class="flex flex-row text-sm text-gray-600 text-center" role="list">
         <li class="grow">
