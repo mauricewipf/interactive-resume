@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>mauwi Web Components</title>
+  <link href="https://www.mauwi.me/" rel="canonical"/>
+  <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-white">
+  <main class="isolate">
+    <!-- Hero section -->
+    <div class="relative pt-14">
+      <div aria-hidden="true"
+           class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+        <div
+          class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+      <div class="py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-4xl text-center">
+            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">mauwi-wc:<br>Custom Web Components
+              on Demand</h1>
+            <p class="mt-6 text-lg leading-8 text-gray-600">A subscription based service delivering web components for
+              your website or web application. Pause or cancel anytime.</p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                class="rounded-md bg-indigo-600 px-5 py-3.5 tracking-wider font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                href="#plans">See
+                plans</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Integration section -->
+    <div class="overflow-hidden bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div
+          class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div class="lg:pr-8 lg:pt-4">
+            <div class="lg:max-w-lg">
+              <p class="text-base font-semibold leading-7 text-indigo-600">For marketers and developers alike</p>
+              <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Integrate everywhere</h2>
+              <p class="mt-6 text-lg leading-8 text-gray-600">Content management systems (CMS) are a great way for
+                content creators to publish their content online. However, they have limitations when it comes to
+                customization. Our service gives the freedom to customize every aspect of your website, from layout and
+                styling to interactive elements and functionality.</p>
+              <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="w-6 h-6 absolute left-1 top-1 text-indigo-600" fill="currentColor" viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+                      <path clip-rule="evenodd"
+                            d="M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5H2.25Zm6.04 16.5.5-1.5h6.42l.5 1.5H8.29Zm7.46-12a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-6Zm-3 2.25a.75.75 0 0 0-1.5 0v3.75a.75.75 0 0 0 1.5 0V9Zm-3 2.25a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0v-1.5Z"
+                            fill-rule="evenodd"/>
+                    </svg>
+                    For marketers.
+                  </dt>
+                  <dd class="inline">If your CMS supports Custom HTML, then you are good to go.
+                  </dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="w-6 h-6 absolute left-1 top-1 text-indigo-600" fill="currentColor" viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+                      <path clip-rule="evenodd"
+                            d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25Z"
+                            fill-rule="evenodd"/>
+                    </svg>
+                    For developers.
+                  </dt>
+                  <dd class="inline">Install the web components library via npm or yarn like any other JavaScript
+                    library.
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <a href="../assets/images/integrate-with-wordpress.png" target="_blank">
+            <img alt="Wordpress editor"
+                 class="w-[48rem] max-w-none sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                 height="1442"
+                 src="../assets/images/integrate-with-wordpress.png" width="2432">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Steps section -->
+    <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-2xl px-4 sm:text-center mb-12">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Three easy steps to a better
+          website</h2>
+      </div>
+      <div class="lg:border-b lg:border-t lg:border-gray-200">
+        <div aria-label="Progress" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <ol class="overflow-hidden rounded-md lg:flex lg:rounded-none lg:border-l lg:border-r lg:border-gray-200"
+              role="list">
+            <li class="relative overflow-hidden lg:flex-1">
+              <div class="overflow-hidden border border-gray-200 rounded-t-md border-b-0 lg:border-0">
+              <span aria-hidden="true"
+                    class="absolute left-0 top-0 h-full w-1 bg-transparent lg:bottom-0 lg:top-auto lg:h-1 lg:w-full"></span>
+                <span class="flex items-start px-6 py-5 font-medium">
+              <span class="flex-shrink-0">
+                <span class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-600">
+                  <svg aria-hidden="true" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path clip-rule="evenodd"
+                          d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                </span>
+              </span>
+              <span class="ml-4 mt-0.5 flex min-w-0 flex-col">
+                <span class="text-sm font-medium text-gray-500">Step 1</span>
+                <span
+                  class="font-medium">You provide us with your ideas for your website or web application.</span>
+              </span>
+            </span>
+              </div>
+            </li>
+            <li class="relative overflow-hidden lg:flex-1">
+              <div class="overflow-hidden border border-gray-200 lg:border-0">
+              <span class="flex items-start px-6 py-5 font-medium lg:pl-9">
+                <span class="flex-shrink-0">
+                <span class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-600">
+                  <svg aria-hidden="true" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path clip-rule="evenodd"
+                          d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                </span>
+              </span>
+              <span class="ml-4 mt-0.5 flex min-w-0 flex-col">
+                <span class="text-sm font-medium text-gray-500">Step 2</span>
+                <span class="font-medium">We turn your ideas into code. We provide you with custom html code for your website along with a detailed instruction how to do so.</span>
+              </span>
+            </span>
+                <!-- Separator -->
+                <div aria-hidden="true" class="absolute inset-0 left-0 top-0 hidden w-3 lg:block">
+                  <svg class="h-full w-full text-gray-300" fill="none" preserveAspectRatio="none" viewBox="0 0 12 82">
+                    <path d="M0.5 0V31L10.5 41L0.5 51V82" stroke="currentcolor" vector-effect="non-scaling-stroke"/>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="relative overflow-hidden lg:flex-1">
+              <div class="overflow-hidden border border-gray-200 rounded-b-md border-t-0 lg:border-0">
+              <span aria-hidden="true"
+                    class="absolute left-0 top-0 h-full w-1 bg-transparent lg:bottom-0 lg:top-auto lg:h-1 lg:w-full"></span>
+                <span class="flex items-start px-6 py-5 font-medium lg:pl-9">
+              <span class="flex-shrink-0">
+                <span class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-600">
+                  <svg aria-hidden="true" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path clip-rule="evenodd"
+                          d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                </span>
+              </span>
+              <span class="ml-4 mt-0.5 flex min-w-0 flex-col">
+                <span class="text-sm font-medium text-gray-500">Step 3</span>
+                <span class="font-medium">You integrate the new web component in your website or web application.</span>
+              </span>
+            </span>
+                <!-- Separator -->
+                <div aria-hidden="true" class="absolute inset-0 left-0 top-0 hidden w-3 lg:block">
+                  <svg class="h-full w-full text-gray-300" fill="none" preserveAspectRatio="none" viewBox="0 0 12 82">
+                    <path d="M0.5 0V31L10.5 41L0.5 51V82" stroke="currentcolor" vector-effect="non-scaling-stroke"/>
+                  </svg>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature section -->
+    <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div
+          class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get Web Components that are</h2>
+          <dl class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
+            <div>
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <svg aria-hidden="true" class="h-6 w-6 text-white" fill="none" stroke="currentColor"
+                       stroke-width="1.5" viewBox="0 0 24 24">
+                    <path
+                      d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                Responsive
+              </dt>
+              <dd class="mt-1 text-base leading-7 text-gray-600">Each web component is developed with responsiveness for
+                different screen sizes in mind.
+              </dd>
+            </div>
+            <div>
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <svg aria-hidden="true" class="h-6 w-6 text-white" fill="none" stroke="currentColor"
+                       stroke-width="1.5" viewBox="0 0 24 24">
+                    <path
+                      d="m20.25 7.5-.625 10.632a2.25 2.25 0 0 1-2.247 2.118H6.622a2.25 2.25 0 0 1-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0-3-3m3 3 3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                Small size
+              </dt>
+              <dd class="mt-1 text-base leading-7 text-gray-600">Each web component is shipped only with the required
+                CSS and JavaScript for that particular web component.
+              </dd>
+            </div>
+            <div>
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <svg aria-hidden="true" class="h-6 w-6 text-white" fill="none" stroke="currentColor"
+                       stroke-width="1.5" viewBox="0 0 24 24">
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                Easy to integrate
+              </dt>
+              <dd class="mt-1 text-base leading-7 text-gray-600">Install your web components via NPM/Yarn or integrate
+                via CDN.
+              </dd>
+            </div>
+            <div>
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <svg aria-hidden="true" class="h-6 w-6 text-white" fill="none" stroke="currentColor"
+                       stroke-width="1.5" viewBox="0 0 24 24">
+                    <path
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                Open web standard
+              </dt>
+              <dd class="mt-1 text-base leading-7 text-gray-600"><a class="font-semibold text-indigo-600"
+                                                                    href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components"
+                                                                    target="_blank">Web
+                Components</a> is an open web
+                standard and has high browser compatibility. No matter whether you already use web components in your
+                web application or any popular JavaScript framework like React or Angular; the web components integrate
+                with your tech stack.
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <!-- Showcase 1 section -->
+    <h2 class="sr-only">Showcases</h2>
+    <div class="overflow-hidden bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl md:px-6">
+        <div class="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
+          <div class="px-6 md:px-0">
+            <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+              <p class="font-semibold text-indigo-600">Showcase</p>
+              <h3 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Communication with Web
+                Component</h3>
+              <div class="mt-10 max-w-xl space-y-8 text-gray-600 lg:max-w-none">
+                <div class="relative pl-9">
+                  <p class="inline font-semibold text-gray-900">
+                    <svg aria-hidden="true" class="absolute left-1 top-1 h-5 w-5 text-indigo-600" fill="currentColor"
+                         viewBox="0 0 20 20">
+                      <path clip-rule="evenodd"
+                            d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
+                            fill-rule="evenodd"/>
+                    </svg>
+                    Event listeners.
+                  </p>
+                  <span class="inline">Retrieve data from the web component with event listeners.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="relative isolate overflow-hidden sm:mx-auto sm:max-w-2xl sm:rounded-3xl lg:max-w-none">
+              <div class="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+                <div class="w-screen bg-gray-900 ring-1 ring-white/10">
+                  <div class="flex bg-gray-800/40 ring-1 ring-white/5">
+                    <div class="-mb-px flex text-sm font-medium leading-6 text-gray-400">
+                      <div
+                        class="border-b border-r border-b-white/20 border-r-white/10 bg-white/5 px-4 py-2 text-white">
+                        index.html
+                      </div>
+                    </div>
+                  </div>
+                  <div class="px-6 pb-14 pt-6">
+                  <pre class="text-[0.8125rem] leading-6 text-gray-300" style="tab-size: 2"><code>&lt;<span
+                    class="text-indigo-400">mauwi-personal-information-form</span>&gt;
+&lt;<span class="text-indigo-400">/mauwi-personal-information-form</span>&gt;
+&lt;<span class="text-indigo-400">script</span>&gt;
+document.getElementsByTagName(<span class="text-emerald-300">"mauwi-personal-information-form"</span>)[0]
+    .addEventListener(<span class="text-emerald-300">"submitted"</span>, (<span class="text-[#7dd3fc]">event</span>) => {
+        console.log(<span class="text-[#7dd3fc]">event.target.data</span>);
+    });
+&lt;<span class="text-indigo-400">/script</span>&gt;</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Showcase 2 section -->
+    <div class="mx-auto max-w-7xl md:px-6">
+      <div class="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
+        <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg px-6 md:px-0">
+          <p class="font-semibold text-indigo-600">Showcase</p>
+          <h3 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Manipulate data in Web
+            Component</h3>
+          <div class="mt-10 max-w-xl space-y-8 text-gray-600 lg:max-w-none">
+            <div class="relative pl-9">
+              <p class="inline font-semibold text-gray-900">
+                <svg aria-hidden="true" class="absolute left-1 top-1 h-5 w-5 text-indigo-600" fill="currentColor"
+                     viewBox="0 0 20 20">
+                  <path clip-rule="evenodd"
+                        d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
+                        fill-rule="evenodd"/>
+                </svg>
+                Component Properties.
+              </p>
+              <span class="inline">Update properties and see the updated data in the web component.
+              </span>
+            </div>
+          </div>
+          <div class="mt-5 rounded-md shadow-md px-2 md:px-4 py-2 text-gray-600 flex items-center">
+            <label for="price">Change value for December</label>
+            <input class="ml-2" id="price" max="11000" min="0" name="price" oninput="updateBarChart(event)" step="100"
+                   type="range"/>
+          </div>
+        </div>
+        <div class="px-6 md:px-0 lg:pt-4">
+          <div class="mx-auto max-w-2xl">
+            <mauwi-bar-chart decemberRevenue=5000
+                             novemberRevenue=7000
+                             octoberRevenue=8500
+            ></mauwi-bar-chart>
+            <script>
+              function updateBarChart(event) {
+                document.getElementsByTagName("mauwi-bar-chart")[0]["decemberRevenue"] = event.target.value;
+              }
+            </script>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Testimonial section -->
+    <!--<div class="relative z-10 mt-32 bg-gray-900 pb-20 sm:mt-56 sm:pb-24 xl:pb-0">
+      <div aria-hidden="true" class="absolute inset-0 overflow-hidden">
+        <div class="absolute left-[calc(50%-19rem)] top-[calc(50%-36rem)] transform-gpu blur-3xl">
+          <div class="aspect-[1097/1023] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-25"
+               style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+      </div>
+      <div
+        class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
+        <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
+          <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
+            <img alt=""
+                 class="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+                 src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80">
+          </div>
+        </div>
+        <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-24">
+          <figure class="relative isolate pt-6 sm:pt-12">
+            <svg aria-hidden="true" class="absolute left-0 top-0 -z-10 h-32 stroke-white/20" fill="none"
+                 viewBox="0 0 162 128">
+              <path
+                d="M65.5697 118.507L65.8918 118.89C68.9503 116.314 71.367 113.253 73.1386 109.71C74.9162 106.155 75.8027 102.28 75.8027 98.0919C75.8027 94.237 75.16 90.6155 73.8708 87.2314C72.5851 83.8565 70.8137 80.9533 68.553 78.5292C66.4529 76.1079 63.9476 74.2482 61.0407 72.9536C58.2795 71.4949 55.276 70.767 52.0386 70.767C48.9935 70.767 46.4686 71.1668 44.4872 71.9924L44.4799 71.9955L44.4726 71.9988C42.7101 72.7999 41.1035 73.6831 39.6544 74.6492C38.2407 75.5916 36.8279 76.455 35.4159 77.2394L35.4047 77.2457L35.3938 77.2525C34.2318 77.9787 32.6713 78.3634 30.6736 78.3634C29.0405 78.3634 27.5131 77.2868 26.1274 74.8257C24.7483 72.2185 24.0519 69.2166 24.0519 65.8071C24.0519 60.0311 25.3782 54.4081 28.0373 48.9335C30.703 43.4454 34.3114 38.345 38.8667 33.6325C43.5812 28.761 49.0045 24.5159 55.1389 20.8979C60.1667 18.0071 65.4966 15.6179 71.1291 13.7305C73.8626 12.8145 75.8027 10.2968 75.8027 7.38572C75.8027 3.6497 72.6341 0.62247 68.8814 1.1527C61.1635 2.2432 53.7398 4.41426 46.6119 7.66522C37.5369 11.6459 29.5729 17.0612 22.7236 23.9105C16.0322 30.6019 10.618 38.4859 6.47981 47.558L6.47976 47.558L6.47682 47.5647C2.4901 56.6544 0.5 66.6148 0.5 77.4391C0.5 84.2996 1.61702 90.7679 3.85425 96.8404L3.8558 96.8445C6.08991 102.749 9.12394 108.02 12.959 112.654L12.959 112.654L12.9646 112.661C16.8027 117.138 21.2829 120.739 26.4034 123.459L26.4033 123.459L26.4144 123.465C31.5505 126.033 37.0873 127.316 43.0178 127.316C47.5035 127.316 51.6783 126.595 55.5376 125.148L55.5376 125.148L55.5477 125.144C59.5516 123.542 63.0052 121.456 65.9019 118.881L65.5697 118.507Z"
+                id="b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb"/>
+              <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86"/>
+            </svg>
+            <blockquote class="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+              <p>Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt
+                nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh scelerisque
+                bibendum.</p>
+            </blockquote>
+            <figcaption class="mt-8 text-base">
+              <div class="font-semibold text-white">Judith Black</div>
+              <div class="mt-1 text-gray-400">CEO of Tuple</div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>-->
+
+    <!-- Pricing section -->
+    <div class="bg-white my-24 sm:my-32" id="plans">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-4xl sm:text-center">
+          <h2 class="text-base font-semibold leading-7 text-indigo-600">Subscription membership</h2>
+          <p class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Transparent pricing</p>
+        </div>
+        <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600 sm:text-center">This service is kept as simple
+          as possible to provide the most benefit for your money.</p>
+        <div class="mt-20 flow-root">
+          <div
+            class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+            <div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+              <h3 class="text-base font-semibold leading-7 text-gray-900" id="tier-basic">Basic</h3>
+              <p class="mt-6 flex items-baseline gap-x-1">
+                <span class="text-5xl font-bold tracking-tight text-gray-900">€1.990,-</span>
+                <span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+              </p>
+              <!--<p class="mt-3 text-sm leading-6 text-gray-500">Save €100 per month if paid annually</p>-->
+              <a aria-describedby="tier-basic"
+                 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                 href="https://calendly.com/maurice-wipf/meet"
+                 target="_blank">Book
+                a call</a>
+              <p class="mt-10 text-sm font-semibold leading-6 text-gray-900">Always have a developer on call.</p>
+              <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600" role="list">
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Custom code for your website or web application
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Documentation for integration
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Unlimited code revisions
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Cancel or pause anytime
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  One request at a time
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Five working days turnaround time on average
+                </li>
+              </ul>
+            </div>
+            <div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+              <h3 class="text-base font-semibold leading-7 text-gray-900" id="tier-essential">Essential</h3>
+              <p class="mt-6 flex items-baseline gap-x-1">
+                <span class="text-5xl font-bold tracking-tight text-gray-900">€2.990,-</span>
+                <span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+              </p>
+              <!--<p class="mt-3 text-sm leading-6 text-gray-500">Save €100 per month if paid annually</p>-->
+              <a aria-describedby="tier-essential"
+                 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                 href="https://calendly.com/maurice-wipf/meet"
+                 target="_blank">Book
+                a call</a>
+              <p class="mt-10 text-sm font-semibold leading-6 text-gray-900">Always have a developer on call.</p>
+              <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600" role="list">
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Custom code for your website or web application
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Documentation for integration
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Unlimited code revisions
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Cancel or pause anytime
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  One request at a time
+                </li>
+                <li class="flex gap-x-3 font-bold">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Three working days turnaround time on average
+                </li>
+                <li class="flex gap-x-3 font-bold">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Weekly call
+                </li>
+              </ul>
+            </div>
+            <div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+              <h3 class="text-base font-semibold leading-7 text-gray-900" id="tier-growth">Growth</h3>
+              <p class="mt-6 flex items-baseline gap-x-1">
+                <span class="text-5xl font-bold tracking-tight text-gray-900">€4.990</span>
+                <span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+              </p>
+              <!--<p class="mt-3 text-sm leading-6 text-gray-500">Save €100 per month if paid annually</p>-->
+              <a aria-describedby="tier-growth"
+                 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                 href="https://calendly.com/maurice-wipf/meet"
+                 target="_blank">Book
+                a call</a>
+              <p class="mt-10 text-sm font-semibold leading-6 text-gray-900">Close collaboration for quick results.</p>
+              <ul class="mt-6 space-y-3 text-sm leading-6 text-gray-600" role="list">
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Custom code for your website or web application
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Documentation for integration
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Unlimited code revisions
+                </li>
+                <li class="flex gap-x-3">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Cancel or pause anytime
+                </li>
+                <li class="flex gap-x-3 font-bold">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Two requests at a time
+                </li>
+                <li class="flex gap-x-3 font-bold">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Three working days turnaround time on average
+                </li>
+                <li class="flex gap-x-3 font-bold">
+                  <svg aria-hidden="true" class="h-6 w-5 flex-none text-indigo-600" fill="currentColor"
+                       viewBox="0 0 20 20">
+                    <path clip-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          fill-rule="evenodd"/>
+                  </svg>
+                  Daily call
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About section -->
+    <div class="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14">
+      <div
+        aria-hidden="true"
+        class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"></div>
+      <div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
+        <div
+          class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+          <p class="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">Who
+            I am:<br>A passionated web developer with more than 10 years of experience in frontend development.</p>
+          <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
+            <p class="text-lg leading-8 text-gray-600">I help clients implement their ideas quickly. Quality is an
+              essential part in this process. I'm looking forward to working with you!</p>
+          </div>
+          <img alt=""
+               class="mt-10 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-16"
+               src="../assets/images/maurice-min.jpg">
+        </div>
+      </div>
+      <div class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32"></div>
+    </div>
+
+    <!-- FAQs -->
+    <section>
+      <div class="bg-white">
+        <div class="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
+          <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+            <div class="lg:col-span-5">
+              <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
+              <p class="mt-4 text-base leading-7 text-gray-600">Can’t find the answer you’re looking for? <a
+                class="font-semibold text-indigo-600 hover:text-indigo-500" href="mailto:maurice.wipf@mauwi.me">Reach
+                out to us</a>.</p>
+            </div>
+            <div class="mt-10 lg:col-span-7 lg:mt-0">
+              <dl class="space-y-10">
+                <div>
+                  <dt class="text-base font-semibold leading-7 text-gray-900">Are my web components publicly
+                    available?
+                  </dt>
+                  <dd class="mt-2 text-base leading-7 text-gray-600">No, unless you explicitly want to. Default is a
+                    private npm package for your web components. Depending on how you integrate the web components it
+                    may be easier to have them publicly available via CDN or a public npm package.
+                  </dd>
+                </div>
+                <div>
+                  <dt class="text-base font-semibold leading-7 text-gray-900">Do I have access to the source code?</dt>
+                  <dd class="mt-2 text-base leading-7 text-gray-600">Yes, because it's yours :) Keep in mind that this
+                    service does not include collaboration with developers in your team. Hence, the code source is
+                    read-only.
+                  </dd>
+                </div>
+                <div>
+                  <dt class="text-base font-semibold leading-7 text-gray-900">My needs go beyond web components. Can you
+                    still help?
+                  </dt>
+                  <dd class="mt-2 text-base leading-7 text-gray-600"><a
+                    class="font-semibold text-indigo-600 hover:text-indigo-500"
+                    href="mailto:maurice.wipf@mauwi.me">Let’s
+                    talk</a>. If I can’t help, I may know someone who can.
+                  </dd>
+                </div>
+
+                <!-- More questions... -->
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA section -->
+    <div class="relative -z-10 mt-32 px-6 lg:px-8">
+      <div
+        aria-hidden="true"
+        class="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 transform-gpu justify-center overflow-hidden blur-3xl sm:bottom-0 sm:right-[calc(50%-6rem)] sm:top-auto sm:translate-y-0 sm:transform-gpu sm:justify-end">
+        <div class="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-25"
+             style="clip-path: polygon(73.6% 48.6%, 91.7% 88.5%, 100% 53.9%, 97.4% 18.1%, 92.5% 15.4%, 75.7% 36.3%, 55.3% 52.8%, 46.5% 50.9%, 45% 37.4%, 50.3% 13.1%, 21.3% 36.2%, 0.1% 0.1%, 5.4% 49.1%, 21.4% 36.4%, 58.9% 100%, 73.6% 48.6%)"></div>
+      </div>
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Boost your productivity.<br>Start using
+          mauwi web copmonents today.</h2>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <a
+            class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            href="#plans">See plans</a>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        class="absolute left-1/2 right-0 top-full -z-10 hidden -translate-y-1/2 transform-gpu overflow-hidden blur-3xl sm:block">
+        <div class="aspect-[1155/378] w-[62rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+             style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="px-8 mt-16 mb-8 relative">
+    <div class="mx-auto pt-8 border-t border-gray-900/10">
+      <ul class="flex flex-row text-sm text-gray-600 text-center" role="list">
+        <li class="grow">
+          <a class="hover:text-gray-900"
+             href="mailto:maurice.wipf@mauwi.me?subject=Partnership">Partner with us</a>
+        </li>
+        <li class="grow">
+          <a class="hover:text-gray-900" href="mailto:maurice.wipf@mauwi.me">Contact</a>
+        </li>
+        <li class="grow">
+          <a class="hover:text-gray-900" href="/impressum">Imprint</a>
+        </li>
+        <li class="grow">
+          <a class="hover:text-gray-900" href="/datenschutz">Privacy Policy</a>
+        </li>
+        <!--<li class="grow">
+          <a class="hover:text-gray-900" href="#">Member login</a>
+        </li>-->
+      </ul>
+    </div>
+  </footer>
+</div>
+
+</body>
+<script src="https://unpkg.com/@mauwi-org/mauwi-wc/dist/entry-index.js" type="module"></script>
+</html>
